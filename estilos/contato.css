@@ -1,0 +1,33 @@
+.containerContato{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2%;
+}
+.containerContatoTexto h1 {
+    color: #000;
+}
+
+.containerContatoTexto p {
+    font-size: 30px;
+    margin-right: 2%;
+}
+
+
+
+.containerContatoImagens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    grid-gap: 5px; /* Gap between images */
+    align-items: stretch;
+}
+.imagem {
+    width: 100%; /* Make images fill the grid cells */
+    height: auto;
+    width: 50vh;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    border-radius: 10px;
+    object-fit: cover;
+}
