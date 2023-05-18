@@ -19,3 +19,22 @@
     font-weight: bold;
     font-size: 50px;
 }
+
+.containerTiVerdeTitulo02 {
+    font-weight: bold;
+    font-size: 50px;
+    width:60% ;
+}
+
+
+.iframe-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    width: 60%;
+  }
+  
+  .iframe-grid iframe {
+    width: 70vh;
+    height: 40vh;
+  }
