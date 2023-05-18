@@ -1,0 +1,21 @@
+.containerTiVerde {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.containerTiVerde span {
+    color: green;
+}
+.containerTiVerdeTexto{
+    width: 60%;
+    font-size: 30px;
+
+}
+
+.containerTiVerdeTitulo {
+    font-weight: bold;
+    font-size: 50px;
+}
